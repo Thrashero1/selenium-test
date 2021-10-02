@@ -1,0 +1,26 @@
+{
+  "name": "selenium-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 50000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thrashero1/selenium-test.git"
+  },
+  "author": "David Borg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thrashero1/selenium-test/issues"
+  },
+  "homepage": "https://github.com/Thrashero1/selenium-test#readme",
+  
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "selenium-webdriver": "^4.0.0-rc-2",
+    "chai-webdriver": "^1.2.3",
+    "mocha": "^9.1.2"
+  }
+}
